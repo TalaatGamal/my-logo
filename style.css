@@ -10,9 +10,14 @@ body{
     background-color: #000000;
     padding: 40px;
     overflow: hidden;
+     /* background-image: url(images/isaac-maffeis-YKrcKRISbwM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
 }
 .home{
-    background-color: rgba(0, 0, 0, 0.163);
+    background-color: rgba(0, 0, 0, 0.821);
     /* width: 92vw;
     height: 85vh; */
     border-radius: 20px;
@@ -21,10 +26,11 @@ body{
     padding: 20px;
     padding-bottom: 185px;
     text-align: center;
-    color: #ffffff;
+    color: #ffffff; 
+  
 }
 .conts{
-    background-color: #000000a2;
+    background-color: #00000000;
     border-radius: 40px;
     /* border: #0080ff solid 3px; */
     width: 500px;
@@ -33,12 +39,43 @@ body{
     margin-left: 450px;
     margin-top: 150px;
 }
+.title-home{
+  text-align: center;
+  width: 90vw;
+  font-size: 10px;
+  padding: 10px;
+  background-color: #00ffb300;
+  border-radius: 10px;
+  position: fixed;
+  top: 60px;
+  left: 65px;
+}
+.title-home h1{
+  animation: move-arrow-ink 10.5s  infinite;
+}
+
+@keyframes move-arrow-ink {
+  0% {
+    opacity: 0;
+    /* transform: translateX(-20%); */
+    transform: translateX(0%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    /* transform: translateX(20%); */
+    transform: translateX(0%);
+  }
+  }
 
 @media (max-width: 700px) /* (max-width: 768px)*/{
     #conts{
       width: 80vw;
-      margin-left: 0px;
-      margin-top: 110px;
+      margin-left: 15px;
+      margin-top:200px;
       background-color: #00ff0d00;
     }
     body{
@@ -48,17 +85,53 @@ body{
     .home{
         height: 100%;
         box-shadow: #0084ff 0px 0px 0px 0px;
+        text-align: center;
+    }
+    #homeo{
+      text-align: center;
+      font-size: small;
+    }
+    #title-home{
+      text-align: center;
+      width: 90vw;
+      font-size: 10px;
+      padding: 10px;
+      background-color: #00143046;
+      border-radius: 10px;
+      position: fixed;
+      top: 30px;
+      left: 12px;
+      border: #00b7ff54 solid 2px;
+    }
+    #title-home h1{
+      animation: move-arrow-ink 10.5s  infinite;
     }
     
+@keyframes move-arrow-ink {
+  0% {
+    opacity: 0;
+    /* transform: translateX(-20%); */
+    transform: translateX(0%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    /* transform: translateX(20%); */
+    transform: translateX(0%);
+  }
+  }
 #conts-bottom3{
     background-color: rgb(255, 255, 255);
     box-shadow: #ff0000 0px 0px 10px 3px;
-    width: 200%;
+    width: 100%;
     height: 3%;
     margin: 10px;
     margin-top: 130px;
     border-radius: 10px;
-    animation: move-arrow-ino 1.5s linear infinite;
+    animation: move-arrow-ino 2.5s linear infinite;
 }
 
 @keyframes move-arrow-ino {
@@ -72,17 +145,17 @@ body{
     }
     100% {
       opacity: 0;
-      transform: translateX(-350%);
+      transform: translateX(-550%);
     }
     }
     #conts-bottom1{
         background-color: rgb(255, 255, 255);
         box-shadow: #0084ff 0px 0px 10px 3px;
-        width: 200%;
+        width: 100%;
         height: 3%;
         margin: 10px;
         border-radius: 10px;   
-        animation: move-arrow-inp 1.5s linear infinite;
+        animation: move-arrow-inp 2.5s linear infinite;
     }
     
     @keyframes move-arrow-inp {
@@ -96,7 +169,7 @@ body{
     }
     100% {
       opacity: 0;
-      transform: translateX(250%);
+      transform: translateX(450%);
     }
     }
 }
@@ -152,7 +225,7 @@ body{
     margin: 10px;
     margin-top: 130px;
     border-radius: 10px;
-    animation: move-arrow-in 1.5s linear infinite;
+    animation: move-arrow-in 2s linear infinite;
 }
 
 @keyframes move-arrow-in {
@@ -176,7 +249,7 @@ body{
     height: 3%;
     margin: 10px;
     border-radius: 10px;   
-    animation: move-arrow-in1 1.5s linear infinite;
+    animation: move-arrow-in1 2s linear infinite;
 }
 
 @keyframes move-arrow-in1 {
