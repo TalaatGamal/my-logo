@@ -8,19 +8,17 @@
 body{
     /* background-color: rgba(0, 37, 39, 0.555); */
     background-color: #000000;
-    padding: 40px;
     overflow: hidden;
-     /* background-image: url(images/isaac-maffeis-YKrcKRISbwM-unsplash.jpg);
+     background-image: url(images/imgogo.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     
 }
 .home{
-    background-color: rgba(0, 0, 0, 0.821);
-    /* width: 92vw;
-    height: 85vh; */
-    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.563);
+    width: 100vw;
+    height: 75vh;
     /* box-shadow: rgb(0, 0, 0) 0px 0px 20px 0px; */
     box-shadow: rgba(255, 255, 255, 0.44) 0px 0px 20px 0px;
     padding: 20px;
@@ -30,14 +28,15 @@ body{
   
 }
 .conts{
-    background-color: #00000000;
+    background-color: #00000056;
     border-radius: 40px;
-    /* border: #0080ff solid 3px; */
+    border: #00000051 solid 3px;
+    box-shadow: #00fffb 2px 2px 20px 2px;
     width: 500px;
     height: 300px;
     overflow: hidden;
-    margin-left: 450px;
-    margin-top: 150px;
+    margin-left: 500px;
+    margin-top: 200px;
 }
 .title-home{
   text-align: center;
@@ -51,7 +50,7 @@ body{
   left: 65px;
 }
 .title-home h1{
-  animation: move-arrow-ink 10.5s  infinite;
+  animation: move-arrow-ink 5.5s linear infinite;
 }
 
 @keyframes move-arrow-ink {
@@ -79,7 +78,6 @@ body{
       background-color: #00ff0d00;
     }
     body{
-        padding: 10px;
         overflow: hidden;
     }
     .home{
@@ -90,6 +88,7 @@ body{
     #homeo{
       text-align: center;
       font-size: small;
+      min-width: max-content;
     }
     #title-home{
       text-align: center;
@@ -106,7 +105,8 @@ body{
     #title-home h1{
       animation: move-arrow-ink 10.5s  infinite;
     }
-    
+  
+
 @keyframes move-arrow-ink {
   0% {
     opacity: 0;
