@@ -21,7 +21,7 @@ body{
     height: 75vh;
     /* box-shadow: rgb(0, 0, 0) 0px 0px 20px 0px; */
     box-shadow: rgba(255, 255, 255, 0.44) 0px 0px 20px 0px;
-    padding: 20px;
+    padding-top: 10px;
     padding-bottom: 185px;
     text-align: center;
     color: #ffffff; 
